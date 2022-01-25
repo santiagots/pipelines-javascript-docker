@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'a365e42d-e9bb-4dbe-8c03-edb67782280d'
+  dockerRegistryServiceConnection: '1cbd7eb7-66cb-4744-903e-97c1ca71f1f6'
   imageRepository: 'testpipeline'
-  containerRegistry: 'zuse2cmcrty.azurecr.io'
+  containerRegistry: 'cmpssdevcr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
